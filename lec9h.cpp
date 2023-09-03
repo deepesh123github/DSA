@@ -1,4 +1,4 @@
-// SWAP THE WITH USING FUNCTION
+// SWAP THE ARRAY USING FUNCTION
 #include<iostream>
 using namespace std;
 
