@@ -1,4 +1,4 @@
-
+// swap the array with own
 #include <iostream>
 using namespace std;
 
