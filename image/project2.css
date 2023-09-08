@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* css variables  */
+:root {
+    --navbar-height: 59 px;
+}
+
+/* Navigation bar */
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation bar : Logo and Image*/
+#logo {
+    margin: 10px 36px;
+}
+
+#logo img {
+    height: 56px;
+    margin: 3px 8px;
+}
+
+/*Navigation bar : list styling */
+#navbar {
+    position: relative;
+    padding-bottom: -1px;
+}
+
+#navbar ul {
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+}
+
+#navbar ::before {
+    content: "";
+    background-color: gray;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 12px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* --------------Home section--------------------*/
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    background: url('img2.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.h-primary {
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 4px solid whitesmoke;
+    background-color: tomato;
+    color: white;
+    margin: 16px;
+    font-size: 1.5rem;
+    border-radius: 23px;
+    cursor: pointer;
+}
